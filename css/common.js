@@ -134,6 +134,9 @@ export const common = StyleSheet.create({
   bordernone: {
     borderWidth: 0,
     borderBottomWidth: 0,
+    borderTopWidth: 0,
+    borderRightWidth: 0,
+    borderLeftWidth: 0,
   },
   textupercase: {
     textTransform: 'uppercase',
@@ -149,5 +152,13 @@ export const common = StyleSheet.create({
   },
   textcapitalize: {
     textTransform: 'capitalize',
+  },
+  flexwrap: {
+    flexWrap: 'wrap',
+  },
+  veticalcenter: {
+    alignItems: 'center',
+    alignSelf: 'center',
+    width:"100%"
   },
 });

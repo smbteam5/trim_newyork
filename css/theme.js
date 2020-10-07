@@ -70,6 +70,16 @@ export const theme = StyleSheet.create({
     marginRight: 10,
     fontFamily: 'Montserrat-Regular',
   },
+  otpinputstylist: {
+    width: 60,
+    backgroundColor: '#2B2B2B',
+    borderRadius: 5,
+    borderWidth: 0,
+    borderColor: '#2B2B2B',
+    marginLeft: 10,
+    marginRight: 10,
+    fontFamily: 'Montserrat-Regular',
+  },
   input: {
     fontFamily: 'Montserrat-Regular',
   },
@@ -128,7 +138,7 @@ export const theme = StyleSheet.create({
   },
   speciallabel: {
     padding: 20,
-    backgroundColor: '#000',
+    backgroundColor: '#0F1014',
   },
   listsearch: {
     borderBottomColor: '#F5F5F5',
@@ -139,7 +149,7 @@ export const theme = StyleSheet.create({
     backgroundColor: '#6EC1E4',
   },
   borderbutton: {
-    borderColor: '#E6E6E6',
+    borderColor: '#C9C9C9',
     borderRadius: 5,
   },
   chatbtn: {
@@ -214,5 +224,68 @@ export const theme = StyleSheet.create({
     borderColor: '#E6E6E6',
     borderRadius: 5,
     marginTop: 10,
+  },
+  timeslot: {
+    borderWidth: 1,
+    borderRadius: 5,
+    borderColor: '#E6E6E6',
+    padding: 15,
+    margin: 5,
+    width: 80,
+  },
+  slotactive: {
+    backgroundColor: '#6EC1E4',
+  },
+  succesicon: {
+    fontSize: 66,
+    color: '#6EC1E4',
+  },
+  bgblack: {
+    backgroundColor: '#000',
+  },
+  cardstylist: {
+    backgroundColor: '#0F1014',
+    padding: 20,
+    borderRadius: 30,
+  },
+  inputstylist: {
+    borderBottomColor: '#2A2A2A',
+    borderBottomWidth: 1,
+    marginLeft: 0,
+  },
+  labelinput: {
+    color: '#9F9FA1',
+  },
+  upload: {
+    backgroundColor: '#2A2A2A',
+    padding: 20,
+  },
+  colorblue: {
+    color: '#6EC1E4',
+  },
+  stylistblue: {
+    color: '#2F51FC',
+  },
+  badgestylist: {
+    backgroundColor: '#2F51FC',
+    borderRadius: 5,
+  },
+  bggreen: {
+    backgroundColor: '#1EBF2F',
+  },
+  graylabel: {
+    color: '#E6E6E6',
+  },
+  badgestatus: {
+    paddingRight: 15,
+    borderTopRightRadius: 0,
+    borderBottomRightRadius: 0,
+    marginRight: -20,
+  },
+  bgbluestylist: {
+    backgroundColor: '#2F51FC',
+  },
+  radius5: {
+    borderRadius: 5,
   },
 });

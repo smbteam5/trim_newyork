@@ -20,9 +20,19 @@ import MessagePage from './pages/messages';
 import MessageDetail from './pages/messagedetail';
 import SpecialService from './pages/specialservices';
 import BookingSlots from './pages/bookingslot';
+import CartPage from './pages/cart';
+import SelectPage from './pages/selectpayment';
+import AddnewCard from './pages/addcard';
+import SignupStylist2 from './pages/signupstylist2';
+import SignupStylist3 from './pages/signupstylist3';
+import SignupStylist4 from './pages/signupstylist4';
+import StylistOtp from './pages/stylistotp';
+import StylistSuccess from './pages/stylistsuccess';
+import StylistBooking from './pages/stylistbooking';
+import StylistNotification from './pages/stylistnotification';
 
 const App: () => React$Node = () => {
-  return <BookingSlots />;
+  return <StylistNotification />;
 };
 
 export default App;

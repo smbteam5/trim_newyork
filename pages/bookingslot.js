@@ -55,7 +55,7 @@ export default class BookingSlots extends Component {
           style={[theme.bgblack]}>
           <Left>
             <Icon
-              name="menu"
+              name="arrow-back"
               type="MaterialIcons"
               style={[common.white]}></Icon>
           </Left>
@@ -71,7 +71,7 @@ export default class BookingSlots extends Component {
           </Right>
         </Header>
         <ScrollView>
-          <ListItem avatar style={[theme.listsearch]}>
+          <ListItem avatar style={[theme.listsearch, common.pl10]}>
             <Left>
               <Thumbnail
                 source={require('../assets/images/user-thumb.png')}
@@ -96,11 +96,6 @@ export default class BookingSlots extends Component {
                 New Jersey 08550
               </Text>
             </Body>
-            <Right style={[common.center, common.bordernone]}>
-              <Button rounded style={[theme.chatbtn, common.center]}>
-                <Icon name="chat" type="Entypo"></Icon>
-              </Button>
-            </Right>
           </ListItem>
           <ListItem avatar style={[theme.listsearch]}>
             <Body style={[common.bordernone]}>
@@ -111,7 +106,7 @@ export default class BookingSlots extends Component {
                 <Badge style={[theme.pricebadge, common.mr10]}>
                   <Text style={[theme.fontbold]}>$100</Text>
                 </Badge>
-                <Text>Takes up to 01 hour</Text>
+                <Text note>Takes up to 01 hour</Text>
               </View>
             </Body>
           </ListItem>
@@ -124,7 +119,7 @@ export default class BookingSlots extends Component {
                 <Badge style={[theme.pricebadge, common.mr10]}>
                   <Text style={[theme.fontbold]}>$100</Text>
                 </Badge>
-                <Text>Takes up to 01 hour</Text>
+                <Text note>Takes up to 01 hour</Text>
               </View>
             </Body>
           </ListItem>
@@ -149,6 +144,57 @@ export default class BookingSlots extends Component {
                 disabled={false}
               />
             </View>
+          </View>
+          <View style={[common.p20, common.pt0]}>
+            <Text style={[common.fontmd, theme.fontmedium, common.mb10]}>
+              Book a Slot
+            </Text>
+            <View style={[common.flexbox, common.flexrow, common.flexwrap]}>
+              <View style={[theme.timeslot]}>
+                <Text style={[common.textcenter, theme.fontregular]}>
+                  11:00{'\n'}AM
+                </Text>
+              </View>
+              <View style={[theme.timeslot]}>
+                <Text style={[common.textcenter, theme.fontregular]}>
+                  11:00{'\n'}AM
+                </Text>
+              </View>
+              <View style={[theme.timeslot]}>
+                <Text style={[common.textcenter, theme.fontregular]}>
+                  11:00{'\n'}AM
+                </Text>
+              </View>
+              <View style={[theme.timeslot]}>
+                <Text style={[common.textcenter, theme.fontregular]}>
+                  11:00{'\n'}AM
+                </Text>
+              </View>
+              <View style={[theme.timeslot]}>
+                <Text style={[common.textcenter, theme.fontregular]}>
+                  11:00{'\n'}AM
+                </Text>
+              </View>
+              <View style={[theme.timeslot]}>
+                <Text style={[common.textcenter, theme.fontregular]}>
+                  11:00{'\n'}AM
+                </Text>
+              </View>
+              <View style={[theme.timeslot, theme.slotactive]}>
+                <Text
+                  style={[common.textcenter, theme.fontregular, common.white]}>
+                  11:00{'\n'}AM
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View style={[common.p20, common.pt0]}>
+            <Text style={[common.fontmd, theme.fontmedium]}>
+              Where you want the service at
+            </Text>
+            <Item regular style={[common.mt20]}>
+              <Input style={[theme.input]} placeholder="location" />
+            </Item>
             <Button block style={[theme.blackbutton, common.mt20]}>
               <Text style={[common.fontbody, theme.fontmedium, common.white]}>
                 BOOK NOW
